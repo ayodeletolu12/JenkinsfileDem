@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                sh echo "This is the build stage"
+                echo "This is the build stage"
                 // if you are building a java or javascript build
                 // you will enter the command here for that programming\
                 // language
@@ -22,7 +22,7 @@ pipeline {
 
             steps {
 
-                sh echo "This a test stage of the pipeline as code"
+                echo "This a test stage of the pipeline as code"
 
             }
 
@@ -31,7 +31,7 @@ pipeline {
 
             steps {
 
-                sh echo "This a deployment stage of the pipeline as code"
+                echo "This a deployment stage of the pipeline as code"
 
             }
 
